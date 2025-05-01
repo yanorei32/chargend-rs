@@ -10,7 +10,7 @@ struct Cli {
     #[clap(env, long, default_value= "/etc/chargen.txt")]
     file: PathBuf,
 
-    #[clap(env, long, default_value = "10ms")]
+    #[clap(env, long, default_value = "50ms")]
     interval: humantime::Duration,
 
     #[clap(env, long, default_value = "0.0.0.0:19")]
