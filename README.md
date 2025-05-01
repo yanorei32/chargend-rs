@@ -1,14 +1,13 @@
-# discardd-rs (discard daemon rs)
+# chargend-rs (character generator daemon rs)
 
-It's a implementation of "TCP Based Discard Service" [Discard Protocol [RFC863]](https://datatracker.ietf.org/doc/html/rfc863).
+It's a implementation of "TCP Based Character Generator Service" [Character Generator Protocol [RFC864]](https://datatracker.ietf.org/doc/html/rfc864).
 
 ## Examples
 
 ### Server
 
 ```
-./discardd-rs # default port usage (0.0.0.0:9)
-./discardd-rs 0.0.0.0:9999 # specific port usage
+./chargend-rs # default port usage (0.0.0.0:19)
 ```
 
-NOTE: 9 is a well-known port. It may require administrative permission.
+NOTE: 19 is a well-known port. It may require administrative permission.
